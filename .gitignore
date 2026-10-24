@@ -1,0 +1,19 @@
+/auth.json
+/flashcards.json
+/language-learn.json
+/models-store.json
+/pi-usage.json
+/settings.json
+/settings.json.bak
+/settings.json.*.tmp
+
+/npm/
+/pi-starship/
+/pi-subagents/
+/sessions/
+/web-search-cache/
+
+/.pi/
+
+# pi-permission-system review log (runtime)
+/extensions/pi-permission-system/logs/

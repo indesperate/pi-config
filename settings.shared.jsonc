@@ -1,0 +1,25 @@
+{
+  "theme": "pi-catppuccin-mocha",
+  "packages": [
+    // Web search and URL fetching.
+    "npm:pi-web-access",
+    // Delegate tasks to focused subagents and run multi-agent workflows.
+    "npm:pi-subagents",
+    // Vim-style editing in Pi's input editor.
+    "npm:pi-vim",
+    // Integration between Pi and Neovim.
+    "npm:pi-nvim",
+    // Native Starship-style footer, configured through /starship.
+    "npm:@narumitw/pi-starship",
+    // Theme collection including Catppuccin Mocha.
+    "npm:@bacnh85/pi-themes",
+    // Language learning with writing feedback and bilingual translations.
+    "npm:pi-language-tutor",
+    // FFF-powered fuzzy file and content search (ffgrep, fffind).
+    "npm:@ff-labs/pi-fff",
+    // Deterministic permission gates: deny secrets, destructive bash, unsafe paths.
+    "npm:@gotgenes/pi-permission-system",
+    // Provider usage, limits, balances, and Codex Fast mode.
+    "npm:@narumitw/pi-usage"
+  ]
+}
