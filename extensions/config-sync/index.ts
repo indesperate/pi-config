@@ -63,6 +63,12 @@ export default function (pi: ExtensionAPI) {
         if (result.code !== 0 || result.killed) {
           throw new Error("Package sync failed; settings were kept. Retry with pi update --extensions.");
         }
+        const patch = await pi.exec(process.execPath, [join(agentDir, "scripts/patch-permission-fff.mjs")], {
+          cwd: agentDir, timeout: 10_000,
+        });
+        if (patch.code !== 0 || patch.killed) {
+          throw new Error(`FFF permission patch failed; not reloading. ${patch.stderr || patch.stdout}`);
+        }
       } catch (error) {
         ctx.ui.notify(error instanceof Error ? error.message : String(error), "error");
         return;
