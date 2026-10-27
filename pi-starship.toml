@@ -90,7 +90,7 @@ style = "none"
 format = "([$statuses]($style))"
 style = "fg:subtext0"
 separator = " • "
-icons = { fallback = "󰚥" }
+icons = { "usage" = "󰊚", fallback = "󰚥" }
 
 [palettes.catppuccin_mocha]
 pink = "#f5c2e7"

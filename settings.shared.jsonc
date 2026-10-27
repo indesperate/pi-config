@@ -20,6 +20,8 @@
     // Deterministic permission gates: deny secrets, destructive bash, unsafe paths.
     "npm:@gotgenes/pi-permission-system",
     // Provider usage, limits, balances, and Codex Fast mode.
-    "npm:@narumitw/pi-usage"
+    "npm:@narumitw/pi-usage",
+    // Tokens-per-second meter, shown by pi-starship's extension status.
+    "npm:pi-token-speed"
   ]
 }
