@@ -51,7 +51,7 @@ symbol = ""
 style = "fg:text"
 
 [thinking]
-format = "[$symbol$level ]($style)"
+format = "[$symbol $level ]($style)"
 symbol = "✦"
 style = "fg:crust bg:maroon"
 

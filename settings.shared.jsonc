@@ -1,5 +1,5 @@
 {
-  "theme": "pi-catppuccin-mocha",
+  "theme": "catppuccin",
   "packages": [
     // Web search and URL fetching.
     "npm:pi-web-access",
@@ -11,8 +11,6 @@
     "npm:pi-nvim",
     // Native Starship-style footer, configured through /starship.
     "npm:@narumitw/pi-starship",
-    // Theme collection including Catppuccin Mocha.
-    "npm:@bacnh85/pi-themes",
     // Language learning with writing feedback and bilingual translations.
     "npm:pi-language-tutor",
     // FFF-powered fuzzy file and content search (ffgrep, fffind).
@@ -22,6 +20,12 @@
     // Provider usage, limits, balances, and Codex Fast mode.
     "npm:@narumitw/pi-usage",
     // Tokens-per-second meter, shown by pi-starship's extension status.
-    "npm:pi-token-speed"
-  ]
+    "npm:pi-token-speed",
+    // Transparent tool and user-message frames.
+    "npm:pi-tidy"
+  ],
+  "tidy": {
+    "frameUserMessages": true,
+    "groupTools": false
+  }
 }
