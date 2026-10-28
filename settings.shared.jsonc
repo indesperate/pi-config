@@ -13,8 +13,6 @@
     "npm:@narumitw/pi-starship",
     // Language learning with writing feedback and bilingual translations.
     "npm:pi-language-tutor",
-    // FFF-powered fuzzy file and content search (ffgrep, fffind).
-    "npm:@ff-labs/pi-fff",
     // Deterministic permission gates: deny secrets, destructive bash, unsafe paths.
     "npm:@gotgenes/pi-permission-system",
     // Provider usage, limits, balances, and Codex Fast mode.
