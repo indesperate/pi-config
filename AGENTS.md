@@ -1,2 +1,5 @@
-- Prefer clear names and self-explanatory code; comments should add information the code cannot express.
-- Prefer small, composable functions when they improve clarity—not merely to shorten code.
+# Code style
+
+- Use clear names and self-explanatory code.
+- Write comments that explain what the code cannot.
+- Extract small functions when they improve clarity.
