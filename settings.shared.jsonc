@@ -6,8 +6,6 @@
     "npm:pi-web-access",
     // Vim-style editing in Pi's input editor.
     "npm:pi-vim",
-    // Automatic file, cursor, and selection context from connected editors via /ide.
-    "npm:pi-ide-context",
     // Native Starship-style footer, configured through /starship.
     "npm:@narumitw/pi-starship",
     // Language learning with writing feedback and bilingual translations.
